@@ -12,7 +12,7 @@ El dashboard permite explorar los ingresos registrados entre 2022 y 2025 mediant
 
 <p align="center">
 
-<img src="imagenes/dashboard_general.png" width="850">
+<img src="images/dashboard_general.png" width="850">
 
 </p>
 
@@ -32,15 +32,15 @@ El dashboard permite explorar los ingresos registrados entre 2022 y 2025 mediant
 
 <p align="center">
 
-<img src="imagenes/dashboard_analisis.png" width="48%">
+<img src="images/dashboard_analisis.png" width="48%">
 
-<img src="imagenes/dashboard_evolucion.png" width="48%">
+<img src="images/dashboard_evolucion.png" width="48%">
 
 </p>
 
 <p align="center">
 
-<img src="imagenes/dashboard_hallazgos.png" width="48%">
+<img src="images/dashboard_hallazgos.png" width="48%">
 
 </p>
 
