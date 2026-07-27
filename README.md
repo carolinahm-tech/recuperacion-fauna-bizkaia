@@ -1,53 +1,113 @@
 # 🦅 Recuperación de Fauna Silvestre de Bizkaia (2022–2025)
 
-> Proyecto de análisis de datos y divulgación basado en los registros del Centro de Recuperación de Fauna Silvestre de Bizkaia.
+> Proyecto completo de **Data Analytics** basado en datos abiertos del Centro de Recuperación de Fauna Silvestre de Bizkaia.
 
----
-
-## 📖 Sobre el proyecto
-
-Este proyecto analiza los ingresos registrados en el Centro de Recuperación de Fauna Silvestre de Bizkaia entre los años 2022 y 2025.
-
-El objetivo ha sido transformar un conjunto de datos abiertos en una herramienta visual y divulgativa compuesta por:
-
-- 📊 Un dashboard interactivo desarrollado en Power BI.
-- 📘 Una guía ilustrada diseñada en LaTeX con las especies más representativas del estudio.
-
-El proyecto combina análisis de datos, visualización y diseño de materiales divulgativos basados en datos abiertos.
+Este proyecto combina **SQL**, **Python**, **Power BI** y **LaTeX** para transformar datos abiertos en un análisis interactivo y una guía ilustrada de divulgación científica.
 
 ---
 
 # 📊 Dashboard interactivo
 
-> *(Captura pendiente de la versión final con QR)*
+El dashboard permite explorar los ingresos registrados entre 2022 y 2025 mediante indicadores, filtros y visualizaciones interactivas.
 
-<!-- AQUÍ irá la imagen -->
+<p align="center">
+
+<img src="imagenes/dashboard_general.png" width="850">
+
+</p>
+
+### Incluye
+
+- Evolución anual de ingresos.
+- Distribución mensual.
+- Principales especies.
+- Causas de ingreso.
+- Estado de los animales.
+- Evolución temporal.
+- KPIs interactivos.
+
+---
+
+## Otras vistas del dashboard
+
+<p align="center">
+
+<img src="imagenes/dashboard_analisis.png" width="48%">
+
+<img src="imagenes/dashboard_evolucion.png" width="48%">
+
+</p>
+
+<p align="center">
+
+<img src="imagenes/dashboard_hallazgos.png" width="48%">
+
+</p>
 
 ---
 
 # 📘 Guía ilustrada
 
-> *(Captura pendiente de la versión final con QR)*
+Además del dashboard, el proyecto incluye una guía divulgativa diseñada íntegramente en **LaTeX (Overleaf)**.
 
-<!-- AQUÍ irá la imagen -->
+La guía resume los resultados del análisis mediante fichas ilustradas de especies, gráficos y recomendaciones para la conservación de la fauna silvestre.
+
+<p align="center">
+
+<img src="imagenes/guia_portada.png" width="30%">
+
+<img src="imagenes/guia_gaviota.png" width="30%">
+
+<img src="imagenes/guia_final.png" width="30%">
+
+</p>
 
 ---
 
 # 🔍 Principales hallazgos
 
-- Las aves constituyen la clase con mayor número de ingresos.
-- La gaviota patiamarilla fue la especie más frecuente durante el periodo analizado.
-- La principal causa de ingreso corresponde a la época de cría.
-- Los meses con mayor actividad fueron mayo, junio y julio.
-- Más de la mitad de los animales ingresaron vivos en el centro.
+- 🐦 Las aves constituyen la clase con mayor número de ingresos.
+- 🐤 La gaviota patiamarilla fue la especie más frecuente.
+- 🌱 La época de cría representa la principal causa de ingreso.
+- ☀️ Mayo, junio y julio concentran el mayor número de ingresos.
+- ❤️ Más de la mitad de los animales ingresan vivos en el centro.
+- 🌍 Los datos muestran la influencia directa de la actividad humana sobre la fauna silvestre.
+
+---
+
+# ⚙️ Metodología
+
+El proyecto siguió las siguientes fases:
+
+```text
+Datos abiertos
+        │
+        ▼
+ Limpieza de datos
+(SQL + Python)
+        │
+        ▼
+Análisis exploratorio
+        │
+        ▼
+Dashboard interactivo
+(Power BI)
+        │
+        ▼
+Guía ilustrada
+(LaTeX)
+        │
+        ▼
+Conclusiones
+```
 
 ---
 
 # 🛠 Tecnologías utilizadas
 
-- Power BI
 - SQL
 - Python
+- Power BI
 - LaTeX (Overleaf)
 - Google Sheets
 - GitHub
@@ -57,13 +117,17 @@ El proyecto combina análisis de datos, visualización y diseño de materiales d
 # 📂 Estructura del proyecto
 
 ```text
-recuperacion_fauna_Bizkaia/
+recuperacion-fauna-bizkaia/
 
 ├── dashboard/
-├── data/
+│   └── Dashboard.pbix
+│
 ├── guia/
+│   ├── Guia_Especies_Bizkaia.pdf
+│   └── Código LaTeX
+│
 ├── imagenes/
-├── notebooks/
+│
 └── README.md
 ```
 
@@ -71,7 +135,9 @@ recuperacion_fauna_Bizkaia/
 
 # 📑 Fuente de los datos
 
-Los datos utilizados proceden del Portal de Datos Abiertos de la Diputación Foral de Bizkaia.
+**Portal Open Data Bizkaia**
+
+Centro de Recuperación de Fauna Silvestre de Bizkaia.
 
 Periodo analizado:
 
@@ -88,8 +154,14 @@ Periodo analizado:
 
 Proyecto desarrollado como parte de mi portfolio de Data Analytics.
 
+GitHub:
+
+**https://github.com/carolinahm-tech**
+
 ---
 
-# 🔗 Proyecto completo
+# ⭐ Objetivo del proyecto
 
-> *(Enlace y código QR pendientes de publicación.)*
+El objetivo de este trabajo no ha sido únicamente analizar datos, sino demostrar cómo el análisis de datos puede convertirse en una herramienta útil para comprender y divulgar la conservación de la biodiversidad.
+
+Cada registro representa un animal que necesitó ayuda. Comprender esos datos también es una forma de contribuir a su protección.
