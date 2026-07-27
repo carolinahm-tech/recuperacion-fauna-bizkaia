@@ -54,11 +54,11 @@ La guía resume los resultados del análisis mediante fichas ilustradas de espec
 
 <p align="center">
 
-<img src="imagenes/guia_portada.png" width="30%">
+<img src="images/guia_portada.png" width="30%">
 
-<img src="imagenes/guia_gaviota.png" width="30%">
+<img src="images/guia_gaviota.png" width="30%">
 
-<img src="imagenes/guia_final.png" width="30%">
+<img src="images/guia_final.png" width="30%">
 
 </p>
 
