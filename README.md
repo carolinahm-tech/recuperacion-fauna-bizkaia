@@ -3,6 +3,11 @@
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi)
 ![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex)
 
+🌍 **Language / Idioma**
+
+- 🇪🇸 Español (este documento)
+- 🇬🇧 [English Version](README_EN.md)
+
 # 🐦 Recuperación de Fauna Silvestre de Bizkaia (2022–2025)
 
 Proyecto de análisis de datos desarrollado a partir de información pública del Centro de Recuperación de Fauna Silvestre de Bizkaia (2022–2025).
@@ -235,7 +240,7 @@ recuperacion-fauna-bizkaia/
 
 Este proyecto me permitió trabajar con un conjunto de datos reales procedentes de una administración pública, enfrentándome a tareas habituales dentro del ciclo de vida de un proyecto de análisis de datos.
 
-Durante su desarrollo reforcé competencias relacionadas con la limpieza y preparación de datos, la validación de la calidad de la información, el análisis exploratorio, la creación de visualizaciones y la documentación técnica de un proyecto completo.
+Durante su desarrollo reforcé y desarrollé competencias relacionadas con la limpieza y preparación de datos, la validación de la calidad de la información, el análisis exploratorio, la creación de visualizaciones y la documentación técnica de un proyecto completo.
 
 Más allá del uso de Python, SQL, Power BI o LaTeX, uno de los principales aprendizajes fue la importancia de comprender y validar los datos antes de extraer conclusiones, un paso esencial para realizar análisis fiables y útiles.
 
