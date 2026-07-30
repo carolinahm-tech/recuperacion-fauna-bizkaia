@@ -11,6 +11,7 @@
 % PAQUETES
 %------------------------------------------------
 \usepackage{graphicx}
+\usepackage{eso-pic}
 \usepackage{xcolor}
 \usepackage{geometry}
 \geometry{margin=2cm}
@@ -35,99 +36,34 @@
 \definecolor{Beige}{HTML}{F7F3EA}
 \definecolor{Brown}{HTML}{4B3F35}
 
-\pagestyle{empty}
-
 \begin{document}
-
-\begin{center}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % PORTADA
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%-------------------------------------------------
-% FOTO PRINCIPAL
-%-------------------------------------------------
+\newgeometry{
+left=0cm,
+right=0cm,
+top=0cm,
+bottom=0cm
+}
 
-\includegraphics[width=\textwidth,height=6cm,keepaspectratio]{images/gaviota.jpg}
+\AddToShipoutPictureBG*{%
+\includegraphics[
+width=\paperwidth,
+height=\paperheight
+]{images/guia_portada.png}
+}
 
-\vspace{0.45cm}
+\mbox{}
 
-%-------------------------------------------------
-% TITULO
-%-------------------------------------------------
+\ClearShipoutPictureBG
 
-{\fontsize{28}{32}\selectfont
-\textcolor{ForestGreen}{\textbf{GUÍA ILUSTRADA}}}
+\restoregeometry
 
-\vspace{0.35cm}
+\clearpage
 
-{\fontsize{17}{21}\selectfont
-\textcolor{Brown}{
-Las tres especies con mayor número de ingresos en el Centro de Recuperación de Fauna Silvestre de Bizkaia}}
-
-\vspace{0.45cm}
-
-{\large
-Descubriendo la fauna a través del análisis de datos}
-
-\vspace{0.55cm}
-
-{\color{SoftGreen}\rule{0.60\textwidth}{0.6pt}}
-
-\vspace{0.8cm}
-
-%-------------------------------------------------
-% FOTOS SECUNDARIAS
-%-------------------------------------------------
-
-\begin{minipage}{0.46\textwidth}
-\centering
-\includegraphics[width=\linewidth,height=4.3cm,keepaspectratio]{images/jabali.jpg}
-
-\vspace{0.2cm}
-
-\end{minipage}
-\hfill
-\begin{minipage}{0.46\textwidth}
-\centering
-\includegraphics[width=\linewidth,height=4.3cm,keepaspectratio]{images/tortuga.jpg}
-
-\vspace{0.2cm}
-
-\end{minipage}
-
-\vspace{1cm}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% INFORMACIÓN
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-{\large
-Datos Públicos del Centro de Recuperación de Fauna Silvestre de Bizkaia}
-
-(2022--2025)
-
-\vspace{0.8cm}
-
-{\large
-Proyecto de análisis y divulgación basado en datos abiertos}
-
-\vspace{0.35cm}
-
-{\color{SoftGreen}\rule{0.60\textwidth}{0.6pt}}
-
-{\large Carolina Horcajada Molinero}
-
-\vspace{0.25cm}
-
-...
-
-2026
-
-\end{center}
-
-\newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % PÁGINA 2
@@ -533,12 +469,12 @@ mi comportamiento.
 \begin{center}
 
 {\fontsize{24}{28}\selectfont
-\textcolor{ForestGreen}{\textbf{TORTUGA DE FLORIDA}}
+\textcolor{ForestGreen}{\textbf{TORTUGA DE OREJAS AMARILLAS}}
 }
 
 \vspace{0.1cm}
 
-{\large\itshape Trachemys scripta}
+{\large\itshape Trachemys scripta scripta}
 
 \vspace{0.15cm}
 
@@ -554,9 +490,10 @@ mi comportamiento.
 
 \begin{center}
 
-\large\itshape
-"El reptil con mayor número de ingresos
-registrados en el estudio."
+{\large\itshape
+``El reptil con mayor número de ingresos
+registrados en el estudio.''
+}
 
 \end{center}
 
