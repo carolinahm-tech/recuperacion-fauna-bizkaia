@@ -10,6 +10,12 @@
 
 # 🐦 Recuperación de Fauna Silvestre de Bizkaia (2022–2025)
 
+<p align="center">
+
+<img src="images/guia_portada.png" width="500">
+
+</p>
+
 Proyecto de análisis de datos desarrollado a partir de información pública del Centro de Recuperación de Fauna Silvestre de Bizkaia (2022–2025).
 
 El proyecto recorre el ciclo completo de un proceso de Data Analytics: obtención, limpieza, validación y preparación de los datos, análisis exploratorio, desarrollo de un dashboard interactivo en Power BI y elaboración de una guía ilustrada en LaTeX para comunicar los principales resultados de forma visual y accesible.
@@ -171,11 +177,11 @@ La guía resume los principales resultados del análisis mediante fichas de espe
 
 <p align="center">
 
-<img src="images/guia_portada.png" width="220">
+<img src="images/guia_portada.png" width="250">
 
-<img src="images/guia_gaviota.png" width="220">
+<img src="images/guia_gaviota.png" width="250">
 
-<img src="images/guia_final.png" width="220">
+<img src="images/guia_final.png" width="250">
 
 </p>
 
@@ -231,7 +237,9 @@ recuperacion-fauna-bizkaia/
 │   ├── guía
 │   └── recursos
 │
-└── README.md
+├── README.md
+│
+└── README_EN.md
 ```
 
 ---
