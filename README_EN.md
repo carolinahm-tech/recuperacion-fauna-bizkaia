@@ -211,30 +211,30 @@ The guide summarizes the main analytical results using species profiles, charts 
 
 ---
 
-# 📁 Project Structure
+## 📁 Project structure
 
 ```text
-bizkaia-wildlife-recovery/
-
+recuperacion-fauna-bizkaia/
+│
 ├── dashboard/
-│   ├── Power BI Dashboard (.pbix)
-│   └── Dashboard PDF
+│   └── Power BI dashboard
 │
-├── data/
-│   ├── raw/
-│   └── clean/
-│
-├── guide/
-│   ├── main.tex
-│   └── Final PDF
+├── guia/
+│   └── Illustrated guide
 │
 ├── images/
-│   ├── dashboard screenshots
-│   ├── guide previews
-│   └── assets
+│   └── Project visual resources
 │
-└── README.md
+├── notebooks/
+│   └── notebook_data_preparation.ipynb
+│
+├── .gitignore
+├── LICENSE
+├── README.md
+└── README_EN.md
 ```
+
+The datasets used during the analysis are not included in the repository.
 
 ---
 
