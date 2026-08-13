@@ -60,7 +60,7 @@ Datos públicos correspondientes al Centro de Recuperación de Fauna Silvestre d
 
 2022–2025
 
-El conjunto de datos contiene más de **13.000 registros** correspondientes a animales atendidos por el Centro de Recuperación de Fauna Silvestre de Bizkaia. Cada registro incluye información relacionada con:
+El conjunto de datos contiene registros correspondientes a animales atendidos por el Centro de Recuperación de Fauna Silvestre de Bizkaia. Cada registro incluye información relacionada con:
 
 - especie
 - clase zoológica
@@ -88,6 +88,8 @@ Durante esta fase se realizaron, entre otras, las siguientes tareas:
 Como parte del proceso de validación, algunas observaciones fueron contrastadas directamente con el equipo responsable del portal Open Data Bizkaia con el objetivo de garantizar la calidad de la información utilizada durante el análisis.
 
 Este proceso permitió trabajar con un conjunto de datos más consistente y obtener resultados más fiables.
+
+📓 **[Ver el notebook de limpieza y preparación de datos con Python](./notebooks/notebook_data_preparation.ipynb)**
 
 ---
 
@@ -199,7 +201,7 @@ La guía resume los principales resultados del análisis mediante fichas de espe
 
 - ❤️ Más de la mitad de los animales ingresan vivos.
 
-- 🌍 Los datos muestran la influencia directa de la actividad humana sobre la fauna silvestre.
+- 🌍 Los datos muestran diferentes factores relacionados con la actividad humana asociados a los ingresos de fauna.
 
 ---
 
