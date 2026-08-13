@@ -216,31 +216,30 @@ La guía resume los principales resultados del análisis mediante fichas de espe
 
 ---
 
-# 📁 Estructura del proyecto
+## 📁 Estructura del proyecto
 
 ```text
 recuperacion-fauna-bizkaia/
-
-├── dashboard/
-│   └── Dashboard Power BI (.pbix)
 │
-├── data/
-│   ├── raw/
-│   └── clean/
+├── dashboard/
+│   └── Dashboard Power BI
 │
 ├── guia/
-│   ├── main.tex
-│   └── PDF final
+│   └── Guía ilustrada
 │
 ├── images/
-│   ├── dashboards
-│   ├── guía
-│   └── recursos
+│   └── Recursos visuales del proyecto
 │
+├── notebooks/
+│   └── notebook_data_preparation.ipynb
+│
+├── .gitignore
+├── LICENSE
 ├── README.md
-│
 └── README_EN.md
 ```
+
+Los datasets utilizados durante el análisis no se incluyen en el repositorio.
 
 ---
 
