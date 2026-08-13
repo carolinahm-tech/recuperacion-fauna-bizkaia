@@ -58,7 +58,7 @@ Public records from the Bizkaia Wildlife Recovery Centre.
 
 **2022–2025**
 
-The dataset contains more than **13,000 wildlife admission records**.
+The analysis covers **wildlife admission records**.
 
 Each record includes information such as:
 
@@ -88,6 +88,8 @@ The main tasks included:
 As part of the validation process, several observations were discussed with the Open Data Bizkaia team to ensure the reliability of the information used throughout the project.
 
 This process resulted in a cleaner, more consistent dataset and therefore more reliable analytical results.
+
+📓 **[View the Python data cleaning and preparation notebook](./notebooks/notebook_data_preparation.ipynb)**
 
 ---
 
@@ -194,8 +196,7 @@ The guide summarizes the main analytical results using species profiles, charts 
 - 🌱 Spring and summer concentrate the highest admission volume.
 - 🚑 The breeding season is the leading admission cause.
 - ❤️ More than half of the animals arrive alive at the recovery centre.
-- 🌍 The results reveal the direct impact of human activity on wildlife.
-
+- 🌍 The data highlight different human-related factors associated with wildlife admissions.
 ---
 
 # 🛠 Technologies
