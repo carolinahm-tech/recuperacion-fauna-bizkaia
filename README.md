@@ -80,7 +80,7 @@ Durante esta fase se realizaron, entre otras, las siguientes tareas:
 - Corrección de problemas de codificación de caracteres mediante Python.
 - Estandarización y unificación de los archivos correspondientes a los años 2022–2025.
 - Revisión de columnas, categorías y valores inconsistentes.
-- Preparación del conjunto de datos para su posterior análisis en SQL y Power BI.
+- Preparación del conjunto de datos para su posterior análisis en Power BI.
 - Validación de la información mediante la comparación entre diferentes variables y años del conjunto de datos.
 
 Como parte del proceso de validación, algunas observaciones fueron contrastadas directamente con el equipo responsable del portal Open Data Bizkaia con el objetivo de garantizar la calidad de la información utilizada durante el análisis.
@@ -100,7 +100,7 @@ Obtención de datos abiertos
           │
           ▼
 Preparación y limpieza
-              (Python)
+          (Python)
           │
           ▼
 Validación de la información
