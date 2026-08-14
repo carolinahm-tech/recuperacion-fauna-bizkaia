@@ -1,5 +1,4 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-005C84?style=for-the-badge)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi)
 ![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex)
 
@@ -14,7 +13,7 @@ A complete **Data Analytics** project developed using public data from the **Biz
 
 This project covers the full lifecycle of a real-world data analytics workflow, from collecting and preparing raw data to building an interactive Power BI dashboard and designing an illustrated guide to communicate the results in a clear and accessible way.
 
-The project combines **Python**, **SQL**, **Power BI** and **LaTeX** to transform open data into meaningful insights about wildlife admissions in Bizkaia.
+The project combines **Python**, **Power BI** and **LaTeX** to transform open data into meaningful insights about wildlife admissions in Bizkaia.
 
 ---
 
@@ -23,7 +22,6 @@ The project combines **Python**, **SQL**, **Power BI** and **LaTeX** to transfor
 - ✔ Open data obtained from the Open Data Bizkaia portal.
 - ✔ Data cleaning and standardization using Python.
 - ✔ Data quality validation before analysis.
-- ✔ SQL analytical queries.
 - ✔ Interactive dashboard built in Power BI.
 - ✔ Illustrated guide fully designed in LaTeX (Overleaf).
 - ✔ Complete technical documentation available on GitHub.
@@ -82,7 +80,7 @@ The main tasks included:
 - Fixing character encoding issues using Python.
 - Standardizing and merging datasets from 2022 to 2025.
 - Reviewing columns, categories and inconsistent values.
-- Preparing the final dataset for SQL analysis and Power BI visualization.
+- Preparing the final dataset for analysis and Power BI visualization.
 - Validating information by comparing variables across different years.
 
 As part of the validation process, several observations were discussed with the Open Data Bizkaia team to ensure the reliability of the information used throughout the project.
@@ -102,7 +100,7 @@ Open Data
       │
       ▼
 Data Cleaning
-(Python + SQL)
+(Python)
       │
       ▼
 Data Validation
@@ -204,7 +202,6 @@ The guide summarizes the main analytical results using species profiles, charts 
 | Technology | Purpose |
 |------------|----------|
 | Python | Data cleaning and preparation |
-| SQL | Analytical queries |
 | Power BI | Interactive dashboard |
 | LaTeX (Overleaf) | Illustrated guide |
 | GitHub | Documentation and version control |
@@ -248,7 +245,6 @@ Throughout its development I strengthened my skills in:
 - Data cleaning
 - Data validation
 - Exploratory analysis
-- SQL querying
 - Dashboard design
 - Technical documentation
 - Scientific communication through data visualization
