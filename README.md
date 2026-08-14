@@ -1,5 +1,4 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-005C84?style=for-the-badge)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi)
 ![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex)
 
@@ -27,7 +26,6 @@ El proyecto recorre el ciclo completo de un proceso de Data Analytics: obtenció
 - ✔ Obtención de datos abiertos del portal Open Data Bizkaia.
 - ✔ Limpieza y estandarización de datos mediante Python.
 - ✔ Validación de la información mediante contraste con la fuente oficial.
-- ✔ Consultas analíticas desarrolladas en SQL.
 - ✔ Dashboard interactivo creado en Power BI.
 - ✔ Guía ilustrada diseñada íntegramente en LaTeX (Overleaf).
 - ✔ Documentación completa del proyecto en GitHub.
@@ -102,7 +100,7 @@ Obtención de datos abiertos
           │
           ▼
 Preparación y limpieza
-   (Python + SQL)
+              (Python)
           │
           ▼
 Validación de la información
@@ -210,7 +208,6 @@ La guía resume los principales resultados del análisis mediante fichas de espe
 | Tecnología | Uso |
 |------------|-----|
 | Python | Limpieza y preparación de datos |
-| SQL | Consultas analíticas |
 | Power BI | Dashboard interactivo |
 | LaTeX (Overleaf) | Guía ilustrada |
 | GitHub | Documentación y control de versiones |
@@ -251,7 +248,7 @@ Este proyecto me permitió trabajar con un conjunto de datos reales procedentes 
 
 Durante su desarrollo reforcé y desarrollé competencias relacionadas con la limpieza y preparación de datos, la validación de la calidad de la información, el análisis exploratorio, la creación de visualizaciones y la documentación técnica de un proyecto completo.
 
-Más allá del uso de Python, SQL, Power BI o LaTeX, uno de los principales aprendizajes fue la importancia de comprender y validar los datos antes de extraer conclusiones, un paso esencial para realizar análisis fiables y útiles.
+Más allá del uso de Python, Power BI o LaTeX, uno de los principales aprendizajes fue la importancia de comprender y validar los datos antes de extraer conclusiones, un paso esencial para realizar análisis fiables y útiles.
 
 ---
 
